@@ -1,0 +1,23 @@
+// Reset application styles
+body {
+    height: 100%;
+    width: 100%;
+    background-color: $gray;
+}
+
+main {
+    background-color: $background;
+}
+
+a {
+    color: $font-color;
+    margin: 0 auto;
+    &:hover {
+        color: $font-color;
+    }
+}
+
+ol,
+ul {
+    list-style: none;
+}

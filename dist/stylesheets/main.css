@@ -1,0 +1,179 @@
+@charset "UTF-8";
+@import "vendor/bootstrap.min.css";
+.dark-blue-bg {
+  color: #fff;
+  background-color: #0d2435;
+}
+
+.white-bg {
+  background-color: #fff;
+  color: #000;
+}
+
+.no-box-shadow, .form-control {
+  box-shadow: none !important;
+}
+
+.no-border, .btn-gold {
+  border: none !important;
+}
+
+.no-radius {
+  border-radius: 0;
+}
+
+.light-blue-text {
+  color: #549cb4;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .landing .content, footer .content, header .head {
+    flex-direction: column;
+  }
+}
+
+.button {
+  background-color: #e8e8e8;
+  color: #8a8a8a;
+}
+
+.btn-light {
+  color: #fff;
+  background-color: #2abbec;
+}
+.btn-light :hover {
+  background-color: #6cafe3;
+}
+
+.btn-gold {
+  color: #0d2435;
+  background-color: #ffe587 !important;
+}
+
+header {
+  background-color: #6cafe3;
+  min-height: 100px;
+}
+header .logo {
+  max-width: 15rem;
+}
+header .head {
+  display: flex;
+}
+
+footer {
+  padding: 2.7rem 0;
+  text-align: center;
+}
+footer .content {
+  margin: auto;
+  max-width: 800px;
+}
+footer .form-control {
+  border: 3px solid #ffe587;
+  border-radius: 0;
+  background-color: transparent !important;
+  color: #fff;
+}
+footer .form-control::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff;
+}
+footer .form-control:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+}
+footer .form-control::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+}
+footer .form-control:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #fff;
+}
+footer .form-control:placeholder-shown {
+  color: #fff;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+main {
+  background-color: #fff;
+}
+
+a {
+  color: #000;
+  margin: 0 auto;
+}
+a:hover {
+  color: #000;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.form-group label.error {
+  color: #da5d5d;
+}
+
+.form-control.error {
+  border-left: 3px solid #f00 !important;
+}
+.form-control.valid {
+  border-left: 3px solid #009200 !important;
+}
+
+.landing .description {
+  max-width: 495px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.landing .description ul {
+  padding: 0;
+}
+.landing .description li::before {
+  content: "•   ";
+  color: #ffe587;
+  font-size: 2rem;
+}
+
+.landing-form {
+  max-width: 400px;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+}
+.landing-form .head {
+  border-radius: 25px 25px 0px 0px;
+}
+
+.landing-title {
+  max-width: 600px;
+}
+
+.testimony img {
+  float: left;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.testimony p {
+  font-size: 0.7em;
+  letter-spacing: -1px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */

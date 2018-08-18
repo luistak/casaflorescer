@@ -1,0 +1,16 @@
+
+.form-group {
+    label.error {
+        color: $light-error
+    }
+}
+
+.form-control {
+    &.error {
+        border-left: 3px solid $error !important;
+    }
+    &.valid {
+        border-left: 3px solid $success !important;
+    }
+    @extend .no-box-shadow;
+}

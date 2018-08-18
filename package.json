@@ -1,0 +1,28 @@
+{
+  "name": "casaflorescer",
+  "version": "1.0.0",
+  "description": "Site do Centro de Acolhida Especial para Mulheres Transexuais",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luistak/casaflorescer.git"
+  },
+  "keywords": [
+    "ong",
+    "casaflorescer",
+    "cadiversidade"
+  ],
+  "author": "Luís Takahashi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luistak/casaflorescer/issues"
+  },
+  "homepage": "https://github.com/luistak/casaflorescer#readme",
+  "dependencies": {
+    "firebase-tools": "^4.1.2",
+    "sass": "^1.13.0"
+  }
+}

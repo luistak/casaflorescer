@@ -1,0 +1,54 @@
+// Utility variables
+.dark-blue-bg {
+    color: $light-font-color;
+    background-color: $dark-color;
+}
+
+.white-bg {
+    background-color: $light-font-color;
+    color: $font-color;
+}
+
+.no-box-shadow {
+    box-shadow: none !important;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.no-radius {
+    border-radius: 0;
+}
+
+.light-blue-text {
+    color: $light-blue-font-color;
+}
+
+.hide {
+    display: none;
+}
+
+%responsive-flex {
+    @media (max-width: 991px) {
+        flex-direction: column;
+    }
+}
+
+@mixin placeholder-color($color) {
+    &::-webkit-input-placeholder { /* WebKit browsers */
+        color: $color;
+    }
+    &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: $color;
+    }
+    &::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: $color;
+    }
+    &:-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: $color;
+    }
+    &:placeholder-shown {
+        color: $color;
+    }
+}
