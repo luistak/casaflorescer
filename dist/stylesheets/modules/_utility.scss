@@ -29,6 +29,11 @@
     display: none;
 }
 
+.red-bg {
+    background-color: $red;
+    color: #fff;
+}
+
 %responsive-flex {
     @media (max-width: 991px) {
         flex-direction: column;

@@ -7,6 +7,8 @@
 	
 	<!-- Main CSS -->
 	<link rel="stylesheet" href="stylesheets/main.css">
+	<!-- Favicon -->
+	<link rel="icon" href="img/favicon.png" />
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -41,7 +43,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light p-0">
 				<a class="navbar-brand ml-0" href="#">
 					<h1 class="logo mb-0">
-						<img src="includes/logorosa.png" alt="Logo da Casa Florescer" class="img-fluid">
+						<img src="img/logorosa.png" alt="Logo da Casa Florescer" class="img-fluid">
 					</h1>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,7 +73,7 @@
 						</li>
 					</ul>
 					<div class="socials">
-						<a href="https://www.facebook.com/florecerCA/" target="_blank">
+						<a href="https://www.facebook.com/florecerCA/" target="_blank" class="mr-3">
 							<i class="fab fa-facebook-f"></i>
 						</a>
 						<a href="https://www.instagram.com/caeflorescer/" target="_blank">
@@ -98,7 +100,89 @@
 		</section>
 		<section class="video py-5">
 			<div class="iframe m-auto">
-				<iframe src="https://www.youtube.com/embed/Ps6aS5zi5EU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/Lcp21PQES7w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+		</section>
+		<section class="depositions py-5">
+			<div class="container">
+				<div id="depositions" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="item">
+								<div class="row content">
+									<div class="col-12 col-md-6">
+										<div class="head head-1">
+										</div>
+									</div>
+									<div class="col-12 col-md-6 d-flex align-items-center">
+										<div class="text-center">
+											<p>Estou na casa desde os 18 anos, o motivo que me trouxe até aqui foi a falta de aceitação da minha família e a expulsão de casa, meus pais são de origem nordestina e são bem religiosos</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="item">
+								<div class="row content">
+									<div class="col-12 col-md-6">
+										<div class="head head-2">
+										</div>
+									</div>
+									<div class="col-12 col-md-6 d-flex align-items-center">
+										<div class="text-center">
+											<p>Estou na casa desde os 18 anos, o motivo que me trouxe até aqui foi a falta de aceitação da minha família e a expulsão de casa, meus pais são de origem nordestina e são bem religiosos</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev control" href="#depositions" role="button" data-slide="prev">
+						<i class="fas fa-caret-left"></i>
+					</a>
+					<a class="carousel-control-next control" href="#depositions" role="button" data-slide="next">
+						<i class="fas fa-caret-right"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="contact py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<h2>Entre em contato</h2>
+						<p>Rua prates nº 1101 - São Paulo</p>
+						<p><a href="mailto:cadiversidade@gmail.com">cadiversidade@gmail.com</a></p>
+						<p><a href="tel:(11)3456-7890">Tel: (11) 3456-7890</a></p>
+						<h2>Redes sociais</h2>
+						<div class="socials">
+							<a href="https://www.facebook.com/florecerCA/" target="_blank" class="mr-3">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a href="https://www.instagram.com/caeflorescer/" target="_blank">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<form gama-form>
+							<div class="form-group">
+								<input type="text" class="form-control" aria-describedby="nameHelp" name="nome" placeholder="Nome">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" aria-describedby="emailHelp" name="email" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" aria-describedby="subjectHelp" name="assunto" placeholder="Assunto">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" name="mensagem" rows="3" placeholder="Mensagem"></textarea>
+							</div>
+							<button type="submit" class="btn btn-block btn-florescer red-bg">Enviar</button>
+						</form>
+					</div>
+				</div>
 			</div>
 		</section>
 	</main>
@@ -110,17 +194,20 @@
 			<p>
 				Ajude-nos a criar um mundo mais inclusivo. Todo o dinheiro é destinado para as residentes e infraestrutura da casa.
 			</p>
-			<div class="m-auto text-center pt-3">
+			<div class="py-3">
 				<a href="#">
-					<button class="btn btn-florescer">Contribuir</button>
+					<button class="btn btn-florescer red-bg">Contribuir</button>
 				</a>
 			</div>
+			<p >Copyright © CasaFlorescer</p>
 		</div>
 	</footer>
 	<!-- Libs Js -->
 	<script src="js/libs/jquery.min.js"></script>
+	<script src="js/libs/jquery.validate.min.js"></script>
 	<script src="js/libs/popper.min.js"></script>
 	<script src="js/libs/bootstrap.min.js"></script>
+	<script src="js/libs/smtp.js"></script>
 	
 	<!-- Custom Js -->
 	<script src="js/index.js"></script>
