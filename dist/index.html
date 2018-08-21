@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Casa Florescer</title>
 	
 	<!-- Main CSS -->
 	<link rel="stylesheet" href="stylesheets/main.css">
+
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 	<!-- Open graph -->
 	<meta property="og:site_name" content="Casa Florescer">
@@ -21,32 +24,105 @@
 	<meta description="">
 	<meta keywords="">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/5.4.0/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/5.4.0/firebase-auth.js"></script>
-    <script defer src="/__/firebase/5.4.0/firebase-database.js"></script>
-    <script defer src="/__/firebase/5.4.0/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/5.4.0/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
+	<!-- update the version number as needed -->
+	<script defer src="/__/firebase/5.4.0/firebase-app.js"></script>
+	<!-- include only the Firebase features as you need -->
+	<script defer src="/__/firebase/5.4.0/firebase-auth.js"></script>
+	<script defer src="/__/firebase/5.4.0/firebase-database.js"></script>
+	<script defer src="/__/firebase/5.4.0/firebase-messaging.js"></script>
+	<script defer src="/__/firebase/5.4.0/firebase-storage.js"></script>
+	<!-- initialize the SDK after all desired features are loaded -->
+	<script defer src="/__/firebase/init.js"></script>
 
-  </head>
-  <body>
+</head>
+<body>
 	<header>
-		<h1>Casa Florescer</h1>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light p-0">
+				<a class="navbar-brand ml-0" href="#">
+					<h1 class="logo mb-0">
+						<img src="includes/logorosa.png" alt="Logo da Casa Florescer" class="img-fluid">
+					</h1>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mb-0 m-auto">
+						<li class="nav-item mr-3">
+							<!-- <a class="nav-link" href="/pages/sobre.html">Sobre</a> -->
+							<a class="nav-link" href="#">Sobre</a>
+						</li>
+						<li class="nav-item mr-3">
+							<!-- <a class="nav-link" href="/pages/historias.html">Histórias</a> -->
+							<a class="nav-link" href="#">Histórias</a>
+						</li>
+						<li class="nav-item mr-3">
+							<!-- <a class="nav-link" href="/pages/comoajudar.html">Comoajudar</a> -->
+							<a class="nav-link" href="#">Comoajudar</a>
+						</li>
+						<li class="nav-item mr-3">
+							<!-- <a class="nav-link" href="/pages/galeria.html">Galeria</a> -->
+							<a class="nav-link" href="#">Galeria</a>
+						</li>
+						<li class="nav-item mr-3">
+							<!-- <a class="nav-link" href="/pages/contato.html">Contato</a> -->
+							<a class="nav-link" href="#">Contato</a>
+						</li>
+					</ul>
+					<div class="socials">
+						<a href="https://www.facebook.com/florecerCA/" target="_blank">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="https://www.instagram.com/caeflorescer/" target="_blank">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
 	</header>
 	<main>
-		<div class="container">
-			<p>Teste</p>
-		</div>
+		<section class="principal">
+			<div class="img"></div>
+			<div class="container py-5">
+				<p class="m-auto text-center content">
+					Nossa missão é guiar nossas residentes rumo a felicidade. Damos todo o suporte para que um dia tenham um bom emprego, forte identificação de gênero e acima de tudo, alegria por serem que são.
+				</p>
+				<div class="m-auto text-center pt-3">
+					<a href="#">
+						<button class="btn btn-florescer dark-blue-bg">Saiba mais</button>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="video py-5">
+			<div class="iframe m-auto">
+				<iframe src="https://www.youtube.com/embed/Ps6aS5zi5EU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+		</section>
 	</main>
-    <!-- Libs Js -->
+	<footer>
+		<div class="content m-auto text-center">
+			<h4>
+				Precisamos de sua ajuda
+			</h4>
+			<p>
+				Ajude-nos a criar um mundo mais inclusivo. Todo o dinheiro é destinado para as residentes e infraestrutura da casa.
+			</p>
+			<div class="m-auto text-center pt-3">
+				<a href="#">
+					<button class="btn btn-florescer">Contribuir</button>
+				</a>
+			</div>
+		</div>
+	</footer>
+	<!-- Libs Js -->
 	<script src="js/libs/jquery.min.js"></script>
 	<script src="js/libs/popper.min.js"></script>
 	<script src="js/libs/bootstrap.min.js"></script>
 	
 	<!-- Custom Js -->
 	<script src="js/index.js"></script>
-  </body>
+</body>
 </html>

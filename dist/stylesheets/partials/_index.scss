@@ -1,0 +1,27 @@
+.principal {
+	background-color: $color;
+	color: #fff;
+	.img {
+		background: url('../../includes/principal.jpg');
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 500px;
+	}
+}
+
+.video {
+	.iframe {
+		max-width: 60%;
+		height: 500px;
+		position: relative;
+		@media (max-width: 991px) {
+			height: 300px;
+		}
+	}
+	iframe {
+		width: 100%;
+		height: 100%;
+	}
+}
